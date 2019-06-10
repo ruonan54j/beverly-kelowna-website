@@ -1,0 +1,383 @@
+
+#header{
+	background-size: 100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+	padding-bottom: 200px;
+}
+
+
+
+
+@media screen and (max-width: 414px){
+#header{
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+}
+
+
+.header-hero{
+
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 250px;
+	color: white;
+}
+
+@media screen and (max-width: 414px){
+	.header-hero{
+	text-align: center;
+	padding-top: 130px;
+	color: white;
+}
+}
+.header-hero-h1{
+	font-family: 'Montserrat';
+	font-size:55px;
+	font-weight: bold;
+}
+
+.header-hero-p{
+	font-family: Circular;
+	font-size: 20px;
+}
+
+
+.alex-about-outer{
+	margin-top: 50px;
+}
+
+.alex-about-img{
+	margin-top: 100px;
+}
+
+.margin-top{
+	margin-top: 60px;
+}
+.alex-about-p{
+	font-family: Circular;
+	padding-top: 150px;
+}
+
+@media screen and (max-width: 414px){
+.alex-about-outer{
+	margin-top: 30px;
+}
+
+.alex-about-img{
+	margin:0 auto;
+	display: block;
+	margin-top: 50px;
+}
+.alex-about-p{
+	font-family: Circular;
+	padding-top: 50px;
+}
+}
+
+.buy-a-home-h2{
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #2a2a2a;
+	font-size: 40px;
+}
+
+.buy-a-home-p{
+	color: #353535;
+	font-family: Circular;
+	padding: 0px 100px;
+}
+
+
+#for-buy  .btn-primary{
+	height: 40px;
+	font-family: Circular;
+	padding: 10px 30px;
+	background-color: white;
+	background-image: none;
+	border: 1px solid #CEC3C3;
+	color: black;
+	font-size: 14px;
+}
+
+.parallax {
+		/* The image used */
+		background-image: url("../img/landing-page/frontview.jpg");
+
+		/* Full height */
+		width: 100%;
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+
+}
+
+
+.hamburger .line{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  display: block;
+  margin: 8px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover{
+  cursor: pointer;
+}
+
+/* ONE */
+
+#hamburger-1.is-active .line:nth-child(2){
+  opacity: 0;
+}
+
+#hamburger-1.is-active .line:nth-child(1){
+  -webkit-transform: translateY(13px) rotate(45deg);
+  -ms-transform: translateY(13px) rotate(45deg);
+  -o-transform: translateY(13px) rotate(45deg);
+  transform: translateY(13px) rotate(45deg);
+}
+
+#hamburger-1.is-active .line:nth-child(3){
+  -webkit-transform: translateY(-13px) rotate(-45deg);
+  -ms-transform: translateY(-13px) rotate(-45deg);
+  -o-transform: translateY(-13px) rotate(-45deg);
+  transform: translateY(-13px) rotate(-45deg);
+}
+
+
+/*jQuery Styles*/
+.navbar-scroll {
+	background: white;
+	padding: 0px;
+	transition-duration: 0.3s;
+}
+.navbar-scroll  .navbar-brand{
+	color: black;
+}
+
+.navbar-scroll  .navbar-brand:hover,
+.navbar-scroll  .navbar-brand:focus{
+	color: #7C8B89;
+	transition: all ease .3s;
+
+}
+
+.navbar-scroll  .navbar-nav>li>a{
+	color: black;
+	border-bottom: 2px solid white;
+}
+
+.navbar-scroll  .navbar-nav>li>a:hover{
+	color: black;
+	transition: all ease .3s;
+	border-bottom: 2px solid black;
+}
+.nav-dropdown-scroll {
+	background: #e7eaea;
+}
+
+
+
+
+
+
+
+
+/* contact page css */
+#contact-header{
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	padding-top: 250px;
+	padding-bottom: 200px;
+}
+
+@media screen and (max-width: 414px){
+#contact-header{
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+}
+.contact-div-outer{
+	color: black;
+	margin-top: 0px;
+}
+.contact-h1{
+	font-size: 70px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #343434;
+}
+
+.contact-profile-outer{
+	padding-top: 0px;
+	font-size: 18px;
+	color: #343434;
+}
+
+.profile-img{
+	height: 350px;
+	width: 300px;
+}
+
+.social-img{
+	margin: 0px;
+}
+
+.social-circle{
+	margin: 0px;
+	clear: both;
+}
+@media screen and (max-width:414px){
+
+.profile-img{
+	height: auto;
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+}
+.contact-profile-outer{
+	padding-top: 0px;
+	font-size: 18px;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	color: #343434;
+}
+.social-img{
+	margin-left: 120px;
+}
+.social-circle{
+	margin: 0 auto;
+	display: block;
+	clear: both;
+}
+}
+
+
+.contact-profile-h1{
+	font-size: 36px;
+	font-weight: bold;
+	color: #343434;
+}
+.looking-info{
+	font-family: 'Montserrat';
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+.sec-contact-outer{
+	margin-top: 20px;
+}
+
+#contact-form{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#contact-form .form-control{
+	min-height: 55px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	font-size: 16px;
+    opacity: 1; /* Firefox */
+    color:#D3C3C3;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 16px;
+    opacity: 1; /* Firefox */
+    color:#D3C3C3;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    font-size: 16px;
+    opacity: 1; /* Firefox */
+    color:#D3C3C3;
+}
+
+#contact-form .form-control:focus{
+	border-color: #c2c1bb;
+}
+
+
+#contact-form .btn-primary{
+	background-image: none;
+	background-color: black;
+	border: 0px;
+	padding: 0 40px;
+	height: 55px;
+	border-radius: 0px;
+}
+
+
+#contact-form .btn-primary:hover{
+	outline: none;
+	opacity: .8;
+	transition: all ease-in .3s;
+}
+#outerdiv{
+  background-image: url('../img/contact/trees.jpg');
+  margin: 0 15px 0 15px;
+  padding: 20px
+}
+#innerdiv{
+  padding-bottom:50px;
+  padding-top:50px;
+  margin-top: 50px;
+  background: white;
+}
+#info{
+  text-align: justify;
+  text-align-last: center;
+  padding-top: 130px
+}
+#map{
+  padding:30px
+}
+@media only screen and (max-width: 600px) {
+  #info{
+    text-align: justify;
+    text-align-last: center;
+    padding-top: 0px
+  }
+  #outerdiv{
+    background-image: url('../img/contact/trees.jpg');
+    margin: 0 15px 0 15px;
+    padding: 200px 0px 0px 0px;
+  }
+  #map{
+    padding:0px;
+    padding-top: 20px
+  }
+}

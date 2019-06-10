@@ -1,0 +1,392 @@
+
+#header{
+  background-image: url("../img/neighbourhood/hero.jpg");
+	background-size: 100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+	padding-bottom: 200px;
+}
+
+
+
+
+@media screen and (max-width: 414px){
+#header{
+  background-image: url("../img/neighbourhood/hero.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+}
+
+
+.header-hero{
+
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 250px;
+	color: white;
+}
+
+@media screen and (max-width: 414px){
+	.header-hero{
+	text-align: center;
+	padding-top: 130px;
+	color: white;
+}
+}
+.header-hero-h1{
+	font-family: 'Montserrat';
+	font-size:55px;
+	font-weight: bold;
+}
+
+.header-hero-p{
+	font-family: Circular;
+	font-size: 20px;
+}
+
+
+.alex-about-outer{
+	margin-top: 50px;
+}
+
+.alex-about-img{
+	margin-top: 100px;
+}
+
+.margin-top{
+	margin-top: 60px;
+}
+.alex-about-p{
+	font-family: Circular;
+	padding-top: 150px;
+}
+
+@media screen and (max-width: 414px){
+.alex-about-outer{
+	margin-top: 30px;
+}
+
+.alex-about-img{
+	margin:0 auto;
+	display: block;
+	margin-top: 50px;
+}
+.alex-about-p{
+	font-family: Circular;
+	padding-top: 50px;
+}
+}
+
+.buy-a-home-h2{
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #2a2a2a;
+	font-size: 40px;
+}
+
+.buy-a-home-p{
+	color: #353535;
+	font-family: Circular;
+	padding: 0px 100px;
+}
+
+
+#for-buy  .btn-primary{
+	height: 40px;
+	font-family: Circular;
+	padding: 10px 30px;
+	background-color: white;
+	background-image: none;
+	border: 1px solid #CEC3C3;
+	color: black;
+	font-size: 14px;
+}
+
+.parallax {
+		/* The image used */
+		background-image: url("../img/landing-page/frontview.jpg");
+
+		/* Full height */
+		width: 100%;
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+
+}
+@font-face {
+	font-family: 'Arapey';
+	src: url('https://fonts.googleapis.com/css?family='Arapey':300');
+}
+
+#header-landing{
+
+	background-size: 100% auto;
+	background-image: url("../img/landing-page/back.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding-bottom: 100px;
+	min-height: 800px;
+}
+
+
+
+
+@media screen and (max-width: 414px){
+#header-landing{
+	background-image:url('../img/landing-page/back-mobile.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+h4{
+	margin-top:35px
+}
+}
+
+
+.landing-hero{
+	font-family: ''Montserrat'';
+	text-align: center;
+	padding-top: 200px;
+	color: white;
+	padding-bottom: 180px;
+}
+
+@media screen and (max-width: 414px){
+	.landing-hero{
+	font-family: ''Montserrat'';
+	text-align: center;
+	padding-top: 130px;
+	color: white;
+}
+
+}
+
+
+.landing-hero-h1{
+	font-family: 'Montserrat';
+	font-size: 60px;
+	font-weight: bold;
+}
+
+
+
+.landing-outer{
+		max-width: 650px;
+}
+
+
+.landing-inner-h1{
+	font-size: 40px;
+
+}
+
+
+.landing-inner-p{
+	font-size: 18px;
+	font-family: Raleway;
+
+}
+
+#blurb{
+	padding: 50px;
+}
+@media screen and (max-width: 414px){
+#blurb{
+	padding:0px;
+}
+}
+
+#landing-top{
+		animation-duration: 5s;
+		color: #81232D;
+}
+#section-a{
+	background-image: url('../back.jpg');
+	padding-top: 30px;
+}
+
+#landing-top  .btn-primary{
+	height: 40px;
+	font-family: Circular;
+	padding: 10px 40px;
+	background-color: white;
+	background-image: none;
+	border: 1px solid #A79898;
+	color: black;
+	font-size: 14px;
+	margin: 20px 10px;
+}
+
+
+.featured-list-img{
+	height: 250px;
+	width: 100%;
+}
+
+
+
+
+.landing-middle-p{
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+
+
+
+.lisitngs-outer{
+	border:1px solid #E7DBDB;
+	margin-bottom: 30px;
+	box-shadow: 10px 10px 30px #E8DCDC;
+}
+
+
+.listings-inner-padding{
+	padding: 10px;
+}
+
+.listings-short-d{
+	color: #8d8d8d;
+
+}
+
+.listings-price{
+	float: right;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+#landing-middle .btn-primary{
+	height: 50px;
+	font-family: Circular;
+	padding: 15px 40px;
+	background-color: #312F2F;
+	background-image: none;
+	border: 1px solid #312F2F;
+	color: white;
+	font-size: 14px;
+	margin: 20px 10px;
+}
+
+
+#landing-middle .btn-primary:hover{
+	opacity: .8;
+	transition: all ease-in .3s;
+	outline: none;
+}
+
+.buy-a-home-h2{
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #2a2a2a;
+	font-size: 40px;
+}
+
+.buy-a-home-p{
+	color: #353535;
+	font-family: Circular;
+	padding: 0px 100px;
+}
+
+#for-buy{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#for-buy  .btn-primary{
+	height: 40px;
+	margin-top: 10px;
+	font-family: Circular;
+	padding: 10px 30px;
+	background-color: white;
+	background-image: none;
+	border: 1px solid #CEC3C3;
+	color: black;
+	font-size: 14px;
+}
+
+.fullscreen-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+		width: 100%;
+		height: auto
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+	-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+
+    }
+
+    .fullscreen-bg__video {
+        display: none;
+    }
+}
+
+#fadelogo {
+	  -vendor-animation-duration: 5s;
+		animation-duration: 5s;
+}
+
+.button {
+  background-color: white;
+  border: solid;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+	width: 100%;
+}
+
+.button:hover {
+	background-color: darkred;
+	color: white;
+	border: solid darkred;
+	text-decoration: none;
+}

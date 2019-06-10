@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127134763-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127134763-6');
+</script>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Resdences</title>
+
+	<link rel="icon" href="logo.png" type="image">
+		<!-- bootstrap link -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+	<!-- google font CDN -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+
+	<!-- font-awesome script cdn -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+	<!-- bootstrap external link -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/about.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" crossorigin="anonymous">
+
+	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+	<!-- javascript and jquery cdn -->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="js/mapper/mapper.js"></script>
+	<!-- external javascript file -->
+
+</head>
+<body data-target="#my-navbar">
+	<div id="header" style="padding-bottom:75px">
+		<nav class="navbar-default navbar navbar-fixed-top navbar-scroll" id="my-navbar">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+						<div class="hamburger" id="hamburger-1">
+									<span class="line"></span>
+									<span class="line"></span>
+									<span class="line"></span>
+								</div>
+					</button>
+					<a href="index.html" class="navbar-brand"><img src="logo.png" class="img-fluid"></a>
+					<a href="index.html" style="text-decoration:none"><h4 class="align-middle">BEVERLY KELOWNA</h4></a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="floorplans.html">FLOOR PLANS</a></li>
+						<li><a href="features.html">FEATURES</a></li>
+						<li><a href="neighbourhood.html">NEIGHBOURHOOD</a></li>
+						<li><a href="gallery.html">GALLERY</a></li>
+						<li><a href="team.html">TEAM</a></li>
+						<li id="contact"><a href="contact.html">CONTACT</a></li>
+						<li><a id="register" style="color:white" href="brochure.pdf">Download Brochure</a></li>
+						<li><a id="register" style="color:white" href="register.html">REGISTER</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+<style media="screen">
+	.second-nav li{
+			color: white;
+      display: inline-block;
+			padding: 15px 15px 0px 15px;
+			font-size:12px
+	}
+	@media only screen and (max-width: 600px) {
+		.second-nav{
+			display: none;
+		}
+	}
+
+</style>
+
+<div class="second-nav" style="background-color:darkred;text-align:center;width:100%">
+	<ul>
+		<li class="secondnav-item"><a href="floorplans.html#landing-middle">FLOOR PLANS</a></li>
+	</ul>
+</div>
+
+<style media="screen">
+	a { color: inherit;
+	 		text-decoration: none}
+  .floorsel{
+    cursor: pointer;
+		font-family: helvetica;
+  }
+	.active{
+		color: grey;
+	}
+  #backbutton{
+    cursor: pointer;
+  }
+	#appmobile{
+		display: none;
+	}
+	.custom-select{
+		background: white;
+		color: black;
+		padding: 5px;
+		width: 100%;
+		border: none;
+		margin-bottom: 5px;
+	}
+	.custom-select-2{
+		background: transparent;
+		color: white;
+		padding: 5px;
+		width: 80%;
+		border: solid white 2px;
+		margin-bottom: 5px;
+	}
+	.custom-select-2:hover{
+		background: white;
+		color: black;
+	}
+	@media only screen and (max-width: 600px) {
+		#app{
+			display:none;
+		}
+		#appmobile{
+			display: block;
+			padding-top: 20px
+		}
+	}
+	.secondnav-item{
+		cursor: pointer;
+	}
+	.secondnav-item:hover{
+		color:black
+	}
+
+</style>
+	<div id="appmobile">
+		<div class="container">
+			<select class="custom-select" name>
+				<option value>FLOOR 2</option>
+				<option value>FLOOR 3</option>
+				<option value>FLOOR 4</option>
+				<option value>FLOOR 5</option>
+				<option value>FLOOR 6</option>
+			</select>
+			<select id="234floors" class="custom-select" name>
+				<option value="S1">S1</option>
+				<option value="1B-1">1B-1</option>
+				<option value="1B-2">1B-2</option>
+				<option value="1B-3">1B-3</option>
+				<option value="2B-1">2B-1</option>
+				<option value="2B-2">2B-2</option>
+				<option value="2B-3">2B-3</option>
+				<option value="2B-4">2B-4</option>
+				<option value="2B-4a">2B-4a</option>
+			</select>
+			<img id="mobileplan" style="width:100%" src="img/floorplans/Studio/S1.png" alt>
+			<script type="text/javascript">
+				$('#234floors').change(function(){
+					plan = $(this).val()
+					$("#mobileplan").attr('src',plans[plan])
+				})
+			</script>
+		</div>
+	</div>
+
+
+	<div id="app" data-aos="fade-in" data-aos-easing="ease-out" class="container" style="padding-bottom:50px;margin-top:65px;margin-left:0px;margin-right:0px">
+		<a name="landing-middle"></a>
+		<div class="row">
+			<div class="col-md-3">
+				<div style="height:700px;background-color:darkred;color:white;text-align:center">
+					<h4 style="margin-top:0px;padding-top:20px">SELECT A FLOOR</h4>
+					<select id="roomtype" class="custom-select-2" name>
+						<option value="1">1 Bedroom</option>
+						<option value="2">2 Bedroom</option>
+						<option value="S">Studio</option>
+					</select>
+
+					<div id="1-Bedroom" class>
+						<h3 class="roomplan">1B-1</h3>
+						<h3 class="roomplan">1B-2</h3>
+						<h3 class="roomplan">1B-2a</h3>
+						<h3 class="roomplan">1B-3</h3>
+						<h3 class="roomplan">1B-4</h3>
+					</div>
+					<div id="2-Bedroom" style="display:none">
+						<h3 class="roomplan">2B-1</h3>
+						<h3 class="roomplan">2B-2</h3>
+						<h3 class="roomplan">2B-3</h3>
+						<h3 class="roomplan">2B-3a</h3>
+						<h3 class="roomplan">2B-4</h3>
+						<h3 class="roomplan">2B-4a</h3>
+					</div>
+					<div id="Studio" style="display:none">
+						<h3 class="roomplan">S1</h3>
+					</div>
+					<br>
+					<br>
+					<div id="regbtn" style="margin: 0px 10px 0px 10px; padding:0px">
+						<a target="_blank" href="floorplans.pdf">Download all plans</a>
+					</div>
+					<style media="screen">
+						.roomplan:hover{
+							color:black;
+						}
+					</style>
+				</div>
+        <script src="js/plans2.js"></script>
+
+			</div>
+			<div class="col-md-9">
+				<img id="display" src="img/floorplans/1 Bedroom/1.png" alt style="width:125%">
+			</div>
+		</div>
+	</div> <!-- container end -->
+
+
+	<!-- footer -->
+	<!-- footer -->
+	<section class="foooter-outer">
+		<div class id="footer-set" style="font-size:11px;padding:0px 10px 0px 10px; color:white">
+			<div class="row">
+				<div class="col-md-2">
+
+				</div>
+				<div class="col-md-2" style="border-right:solid white 1px">
+					<ul id="footer-nav" style>
+						<li class><a href="index.html">HOME</a></li>
+						<li class><a href="floorplans.html">FLOOR PLANS</a></li>
+						<li class><a href="features.html">FEATURES</a></li>
+						<li class><a href="neighbourhood.html">NEIGHBOURHOOD</a></li>
+						<li class><a href="gallery.html">GALLERY</a></li>
+						<li class><a href="team.html">TEAM</a></li>
+						<li class><a href="contact.html">CONTACT</a></li>
+						<li class><a href="register.html">REGISTER</a></li>
+					</ul>
+				</div>
+			<div class="col-md-4" style="font-size:16px;font-family:Raleway">
+					<br>
+					<br>
+					Address:<br>
+					1925 Enterprise Way, Kelowna, BC <br>
+					Email:<br>
+					info@beverlykelowna.ca
+				</div>
+				<div class="col-md-4">
+					<a style="line-height:20px" href="register.html">
+					<div id="regbtn">
+						REGISTER NOW
+					</div>
+					</a>
+				</div>
+			</div>
+						E. & O. E. This is not an offering for sale. An offering for sale may only be made after filing a Disclosure Statement under the Real Estate Development Marketing Act.Contact the developer's agent for further details as well as a copy of the Disclosure Statement when available. After a Disclosure statement is filed, the developer reserves the right to make modifications to building design, specifications, features and floor plans. Prices are subject to change and can be withdrawn at any time.
+		</div> <!-- container-fluid end -->
+	</section>
+	<div class="row" style="background-color: black;padding: 0px;">
+				<p style="color: white;" class="text-center">
+					Developed by <a href="https://castlelab.ca/" style="color:#818AF0;text-decoration: none;">CastleLab</a>
+				</p>
+	</div>
+</body>
+<script>
+	 AOS.init({
+		 easing: 'ease-out-back',
+		 duration: 3000
+	 });
+ </script>
+</html>
