@@ -1,0 +1,127 @@
+
+#header{
+	background-size: 100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+	padding-bottom: 200px;
+}
+
+
+
+
+@media screen and (max-width: 414px){
+#header{
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+}
+
+
+.header-hero{
+
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 250px;
+	color: white;
+}
+
+@media screen and (max-width: 414px){
+	.header-hero{
+	text-align: center;
+	padding-top: 130px;
+	color: white;
+}
+}
+.header-hero-h1{
+	font-family: 'Montserrat';
+	font-size:55px;
+	font-weight: bold;
+}
+
+.header-hero-p{
+	font-family: Circular;
+	font-size: 20px;
+}
+
+
+.alex-about-outer{
+	margin-top: 50px;
+}
+
+.alex-about-img{
+	margin-top: 100px;
+}
+
+.margin-top{
+	margin-top: 60px;
+}
+.alex-about-p{
+	font-family: Circular;
+	padding-top: 150px;
+}
+
+@media screen and (max-width: 414px){
+.alex-about-outer{
+	margin-top: 30px;
+}
+
+.alex-about-img{
+	margin:0 auto;
+	display: block;
+	margin-top: 50px;
+}
+.alex-about-p{
+	font-family: Circular;
+	padding-top: 50px;
+}
+}
+
+.buy-a-home-h2{
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #2a2a2a;
+	font-size: 40px;
+}
+
+.buy-a-home-p{
+	color: #353535;
+	font-family: Circular;
+	padding: 0px 100px;
+}
+
+
+#for-buy  .btn-primary{
+	height: 40px;
+	font-family: Circular;
+	padding: 10px 30px;
+	background-color: white;
+	background-image: none;
+	border: 1px solid #CEC3C3;
+	color: black;
+	font-size: 14px;
+}
+
+.parallax {
+		/* The image used */
+		background-image: url("../img/landing-page/frontview.jpg");
+
+		/* Full height */
+		width: 100%;
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+
+}
